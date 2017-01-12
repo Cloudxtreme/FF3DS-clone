@@ -1,5 +1,22 @@
-#include <3ds.h>
-#include <citro3d.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include "player.h"
+
+
+const int maxHp = 500;
+const int maxMp = 80;
+char name[] = "Dary";		//debug code
+int hp = 500;
+int mp = 80;
+
+//-------------------------------------------------------------------------------
+void Stats() {
+//-------------------------------------------------------------------------------
+		puts("\x1B[2J");	//clears screen
+		printf("Player name: %s\n", name);
+		printf("HP: %i\t\t Max HP: %i\n", hp, maxHp);
+}
+//-------------------------------------------------------------------------------
+void PlayerDmg(int dmg) {
+//-------------------------------------------------------------------------------
+	hp -= dmg;
+}
+

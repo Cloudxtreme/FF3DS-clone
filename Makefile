@@ -32,6 +32,9 @@ BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
 INCLUDES	:=	include
+APP_AUTHOR 	:=	AdamFX990
+APP_TITLE 	:=	FF3DS
+APP_DESCRIPTION :=	Final Fantasy clone for 3DS
 #ROMFS		:=	romfs
 
 #---------------------------------------------------------------------------------
