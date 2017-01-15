@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-void PlayerInit();
-void Stats();
-void PlayerDmg(int dmg);
+void MoveUp();
+void MoveDown();
+void MoveLeft();
+void MoveRight();

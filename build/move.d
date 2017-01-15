@@ -1,5 +1,6 @@
-main.o: \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/main.c \
+move.o: \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/move.c \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/move.h \
  c:/home/Software/devkitPro/libctru/include/3ds.h \
  c:/home/Software/devkitPro/libctru/include/3ds/types.h \
  c:/home/Software/devkitPro/libctru/include/3ds/result.h \
@@ -81,13 +82,9 @@ main.o: \
  c:/home/Software/devkitPro/libctru/include/c3d/light.h \
  c:/home/Software/devkitPro/libctru/include/c3d/lightlut.h \
  c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h \
- c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/lodepng.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/player.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/move.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/types.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/build/vshader_shbin.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/build/characters_png.h
+ c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h
+
+c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/move.h:
 
 c:/home/Software/devkitPro/libctru/include/3ds.h:
 
@@ -252,15 +249,3 @@ c:/home/Software/devkitPro/libctru/include/c3d/lightlut.h:
 c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h:
 
 c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/lodepng.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/player.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/move.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/types.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/build/vshader_shbin.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/build/characters_png.h:
