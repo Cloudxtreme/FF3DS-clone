@@ -4,7 +4,10 @@
 #include <string.h>
 #include <stdlib.h>
 
-void MoveUp();
-void MoveDown();
-void MoveLeft();
-void MoveRight();
+#include "types.h"
+
+Sprite Move(Sprite sprite);
+Sprite MoveUp(Sprite trans);
+Sprite MoveRight(Sprite trans);
+Sprite MoveDown(Sprite trans);
+Sprite MoveLeft(Sprite trans);

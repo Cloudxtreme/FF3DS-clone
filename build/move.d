@@ -82,7 +82,8 @@ move.o: \
  c:/home/Software/devkitPro/libctru/include/c3d/light.h \
  c:/home/Software/devkitPro/libctru/include/c3d/lightlut.h \
  c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h \
- c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h
+ c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/types.h
 
 c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/move.h:
 
@@ -249,3 +250,5 @@ c:/home/Software/devkitPro/libctru/include/c3d/lightlut.h:
 c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h:
 
 c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h:
+
+c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/types.h:
