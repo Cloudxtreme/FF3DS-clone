@@ -230,6 +230,9 @@ static void sceneExit(void) {
 //---------------------------------------------------------------------------------
 int main(int argc, char **argv) {
 //---------------------------------------------------------------------------------
+	//The time the game started
+	StTime();
+
 	// Initialize graphics
 	gfxInitDefault();
 	C3D_Init(C3D_DEFAULT_CMDBUF_SIZE);

@@ -1,6 +1,6 @@
 runtime.o: \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/runtime.c \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/runtime.h \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/runtime.c \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/runtime.h \
  c:/home/Software/devkitPro/libctru/include/3ds.h \
  c:/home/Software/devkitPro/libctru/include/3ds/types.h \
  c:/home/Software/devkitPro/libctru/include/3ds/result.h \
@@ -84,7 +84,7 @@ runtime.o: \
  c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h \
  c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h
 
-c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3ds-clone/source/runtime.h:
+c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/runtime.h:
 
 c:/home/Software/devkitPro/libctru/include/3ds.h:
 
