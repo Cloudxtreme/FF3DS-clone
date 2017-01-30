@@ -255,7 +255,7 @@ int main(int argc, char **argv) {
 	// Main loop
 	while (loop) {
 		
-		mainMenu();
+		loop = mainMenu();
 		kPress = hidKeysDown();
 		Stats();
 		if(kPress & KEY_START)

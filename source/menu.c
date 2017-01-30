@@ -1,9 +1,8 @@
 #include "menu.h"
 
-void mainMenu() {
+bool mainMenu() {
 	int pos = 0;
-	const int totalElem = 2;
-	static const char elements[ELEMENTS][32] = {"New Game", "Load Game"};
+	static const char elements[ELEMENTS][32] = {"New Game", "Load Game", "Exit"};
 	
 	char keysNames[32][32] = {
 		"KEY_A", "KEY_B", "KEY_SELECT", "KEY_START",
@@ -16,10 +15,10 @@ void mainMenu() {
 		"KEY_CPAD_RIGHT", "KEY_CPAD_LEFT", "KEY_CPAD_UP", "KEY_CPAD_DOWN"
 	};
 
-	for(int i = 0; i < ELEMENTS; i++) printf("%s\n", elements[i]);
+	for(int i = 0; i < ELEMENTS; i++) printf(" %s \n", elements[i]);
 
 	bool loop = true;
-
+	int select = 0;
 	u32 kDownOld = 0;
 
 	while(loop) {
@@ -29,12 +28,27 @@ void mainMenu() {
 
 		if(kDown != kDownOld) {
 			consoleClear();
+
 			for(int i = 0; i < ELEMENTS; i++) {
-				printf("%s\n", elements[i]);
+				
+				if (i != select) printf(" %s ", elements[i]);
+				if (i == select) printf(">%s<", elements[i]);
+				printf("\n");
+			}
+			if(kDown & KEY_UP) {
+				select--;
+				if(select < 0) select = 0;
+			}
+			if(kDown & KEY_DOWN) {
+				select++;
+				if(select > (ELEMENTS - 1)) select = (ELEMENTS - 1);
+			}
+			if(kDown & KEY_A) {
+				if(select == (ELEMENTS - 1)) return false;
 			}
 		}
-		kDown = kDownOld;
+		
+
+		kDownOld = kDown;
 	}
-
-
 }
