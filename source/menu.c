@@ -1,5 +1,9 @@
 #include "menu.h"
 
+void loadGame() {
+	//TODO 
+}
+
 bool mainMenu() {
 	int pos = 0;
 	static const char elements[ELEMENTS][32] = {"New Game", "Load Game", "Exit"};
@@ -44,7 +48,13 @@ bool mainMenu() {
 				if(select > (ELEMENTS - 1)) select = (ELEMENTS - 1);
 			}
 			if(kDown & KEY_A) {
-				if(select == (ELEMENTS - 1)) return false;
+				//When A is pressed...
+				//0 = New Game
+				//1 = Load Game
+				//2 = Exit
+				if(select == 0) return true;
+				if(select == 1) loadGame();
+				if(select == 2) return false;	
 			}
 		}
 		
