@@ -234,6 +234,8 @@ int main(int argc, char **argv) {
 	//The time the game started
 	StTime();
 
+	
+
 	// Initialize graphics
 	gfxInitDefault();
 	C3D_Init(C3D_DEFAULT_CMDBUF_SIZE);
@@ -242,11 +244,12 @@ int main(int argc, char **argv) {
 	C3D_RenderTarget* target = C3D_RenderTargetCreate(240, 400, GPU_RB_RGBA8, GPU_RB_DEPTH24_STENCIL8);
 	C3D_RenderTargetSetClear(target, C3D_CLEAR_ALL, CLEAR_COLOR, 0);
 	consoleInit(GFX_BOTTOM, NULL);
+	bool loop = true;
+	loop = mainMenu();
 	C3D_RenderTargetSetOutput(target, GFX_TOP, GFX_LEFT, DISPLAY_TRANSFER_FLAGS);
 
 	// Initialize the scene
 	sceneInit();
-	bool loop = true;
 
 	//Initialise variables
 	PlayerInit();
@@ -255,7 +258,6 @@ int main(int argc, char **argv) {
 	// Main loop
 	while (loop) {
 		
-		loop = mainMenu();
 		kPress = hidKeysDown();
 		Stats();
 		if(kPress & KEY_START)
