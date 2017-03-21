@@ -232,9 +232,7 @@ static void sceneExit(void) {
 int main(int argc, char **argv) {
 //---------------------------------------------------------------------------------
 	//The time the game started
-	StTime();
-
-	
+	StTime();	
 
 	// Initialize graphics
 	gfxInitDefault();

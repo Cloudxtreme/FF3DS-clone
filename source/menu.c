@@ -1,7 +1,9 @@
 #include "menu.h"
 
+
 void loadGame() {
 	//TODO 
+	audioPlay();
 }
 
 bool mainMenu() {

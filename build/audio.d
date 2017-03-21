@@ -1,5 +1,6 @@
-main.o: \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/main.c \
+audio.o: \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.c \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.h \
  c:/home/Software/devkitPro/libctru/include/3ds.h \
  c:/home/Software/devkitPro/libctru/include/3ds/types.h \
  c:/home/Software/devkitPro/libctru/include/3ds/result.h \
@@ -67,30 +68,9 @@ main.o: \
  c:/home/Software/devkitPro/libctru/include/3ds/sdmc.h \
  c:/home/Software/devkitPro/libctru/include/3ds/romfs.h \
  c:/home/Software/devkitPro/libctru/include/3ds/font.h \
- c:/home/Software/devkitPro/libctru/include/citro3d.h \
- c:/home/Software/devkitPro/libctru/include/c3d/types.h \
- c:/home/Software/devkitPro/libctru/include/c3d/maths.h \
- c:/home/Software/devkitPro/libctru/include/c3d/mtxstack.h \
- c:/home/Software/devkitPro/libctru/include/c3d/uniforms.h \
- c:/home/Software/devkitPro/libctru/include/c3d/attribs.h \
- c:/home/Software/devkitPro/libctru/include/c3d/buffers.h \
- c:/home/Software/devkitPro/libctru/include/c3d/base.h \
- c:/home/Software/devkitPro/libctru/include/c3d/texenv.h \
- c:/home/Software/devkitPro/libctru/include/c3d/effect.h \
- c:/home/Software/devkitPro/libctru/include/c3d/texture.h \
- c:/home/Software/devkitPro/libctru/include/c3d/light.h \
- c:/home/Software/devkitPro/libctru/include/c3d/lightlut.h \
- c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h \
- c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/lodepng.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/player.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/move.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/types.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/runtime.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/menu.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/build/vshader_shbin.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/build/characters_png.h
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/dr_flac.h
+
+c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.h:
 
 c:/home/Software/devkitPro/libctru/include/3ds.h:
 
@@ -226,50 +206,4 @@ c:/home/Software/devkitPro/libctru/include/3ds/romfs.h:
 
 c:/home/Software/devkitPro/libctru/include/3ds/font.h:
 
-c:/home/Software/devkitPro/libctru/include/citro3d.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/types.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/maths.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/mtxstack.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/uniforms.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/attribs.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/buffers.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/base.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/texenv.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/effect.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/texture.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/light.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/lightlut.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h:
-
-c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/lodepng.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/player.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/move.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/types.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/runtime.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/menu.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/build/vshader_shbin.h:
-
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/build/characters_png.h:
+c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/dr_flac.h:
