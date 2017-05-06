@@ -1,5 +1,5 @@
 colour.o: \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/colour.c \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/colour.c \
  c:/home/Software/devkitPro/libctru/include/3ds.h \
  c:/home/Software/devkitPro/libctru/include/3ds/types.h \
  c:/home/Software/devkitPro/libctru/include/3ds/result.h \

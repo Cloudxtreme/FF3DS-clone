@@ -1,6 +1,6 @@
 move.o: \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/move.c \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/move.h \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/move.c \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/move.h \
  c:/home/Software/devkitPro/libctru/include/3ds.h \
  c:/home/Software/devkitPro/libctru/include/3ds/types.h \
  c:/home/Software/devkitPro/libctru/include/3ds/result.h \
@@ -83,9 +83,9 @@ move.o: \
  c:/home/Software/devkitPro/libctru/include/c3d/lightlut.h \
  c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h \
  c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/types.h
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/types.h
 
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/move.h:
+c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/move.h:
 
 c:/home/Software/devkitPro/libctru/include/3ds.h:
 
@@ -251,4 +251,4 @@ c:/home/Software/devkitPro/libctru/include/c3d/renderbuffer.h:
 
 c:/home/Software/devkitPro/libctru/include/c3d/renderqueue.h:
 
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/types.h:
+c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/types.h:

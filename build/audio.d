@@ -1,6 +1,6 @@
 audio.o: \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.c \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.h \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/audio.c \
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/audio.h \
  c:/home/Software/devkitPro/libctru/include/3ds.h \
  c:/home/Software/devkitPro/libctru/include/3ds/types.h \
  c:/home/Software/devkitPro/libctru/include/3ds/result.h \
@@ -68,9 +68,9 @@ audio.o: \
  c:/home/Software/devkitPro/libctru/include/3ds/sdmc.h \
  c:/home/Software/devkitPro/libctru/include/3ds/romfs.h \
  c:/home/Software/devkitPro/libctru/include/3ds/font.h \
- c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/dr_flac.h
+ c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/dr_flac.h
 
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/audio.h:
+c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/audio.h:
 
 c:/home/Software/devkitPro/libctru/include/3ds.h:
 
@@ -206,4 +206,4 @@ c:/home/Software/devkitPro/libctru/include/3ds/romfs.h:
 
 c:/home/Software/devkitPro/libctru/include/3ds/font.h:
 
-c:/home/Software/devkitPro/msys/home/Adam/sprites/ff3ds-clone/source/dr_flac.h:
+c:/home/Software/devkitPro/msys/home/Adam/sprites/FF3DS-clone/source/dr_flac.h:

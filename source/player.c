@@ -15,8 +15,6 @@ void PlayerInit() {
 //-------------------------------------------------------------------------------
 void Stats() {
 //-------------------------------------------------------------------------------
-
-	puts("\x1B[2J");	//clears screen
 	printf("\x1b[37mPlayer name: %s\n", name);
 	printf("\x1b[32mHP: %i\x1b\t\t \x1b[33mMP: %i\x1b\n", hp, mp);
 			//display healthbar		
